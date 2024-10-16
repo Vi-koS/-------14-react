@@ -1,0 +1,34 @@
+.cont_2 {
+    display: flex;
+    /* max-width: 499px; */
+    min-height: 594px;
+    /* gap: 19px; */
+    margin: 0 auto;
+}
+
+.cont_2 :not(:last-child) {
+    padding-right: 50px;
+    margin: 0 auto;
+}
+
+.cont_1 {
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(28, 28, 33, 1);
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+}
+.cont_{
+    display: flex;
+    align-items: center;
+}
+
+.container_1 {
+    max-width: 1597px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .cont_1 {
+        flex-direction: column;
+    }
+}

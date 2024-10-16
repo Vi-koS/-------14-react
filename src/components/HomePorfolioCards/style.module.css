@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.32px;
+}
+
+.data {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: rgba(121, 124, 134, 1);
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    color: rgba(242, 242, 243, 1);
+    border-bottom: 1px solid rgba(47, 47, 55, 1);
+    text-transform: uppercase;
+
+}
+
+.cont_btn {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 1024px) {
+    .container:not(:first-child) {
+        display: none;
+    }
+}
+
+/* НЕ ЗНАЮ КАК РАЗДЕЛИТЬ КНОПКИ В ШАПКЕ СЕКЦИИ, ГДЕ СПРАВА ИДУТ ДВЕ КНОПКИ, ДАЛЕЕ ПРИ МЕДИАЗАПРОСЕ ОДНА КНОПКА ОСТАЕТСЯ В ШАПКЕ А ВТОРАЯ УХОДИТ В КОНЕЦ СЕКЦИИ */

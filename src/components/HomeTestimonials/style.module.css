@@ -1,0 +1,24 @@
+.mock{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1597px;
+    margin: 0 auto;
+
+}
+.cont_1{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1597px;
+    margin: 0 auto;
+
+}
+
+@media (max-width:1024px) {
+    .container_1{
+        margin: 0 auto;
+    }
+    .mock{
+        justify-content: center;
+    }
+}

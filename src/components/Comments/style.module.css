@@ -1,0 +1,47 @@
+.container {
+    max-width: 512.33px;
+    min-height: 322px;
+    background-image: url(../../assets/back.png);
+    border-radius: 12px;
+}
+
+.cont_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px 0 40px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(228, 228, 230, 1);
+}
+
+.ad {
+    color: rgba(98, 100, 108, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+
+}
+
+.text {
+    color: rgba(228, 228, 230, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 0 40px 40px 40px;
+}
+
+.star {
+    padding: 30px 0px 30px 40px;
+
+}
+
+@media (max-width: 1024px) {
+    .container:not(:first-child) {
+        display: none;
+    }
+}
